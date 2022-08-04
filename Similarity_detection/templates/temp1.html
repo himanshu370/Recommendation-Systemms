@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FASTAPI</title>
+</head>
+<body>
+
+<h1>The Original Image is:-</h1>
+
+<img src="{{ url_for('celio', path=original_image.id) }}" width="500" height="300">
+
+<h1>The Recommended Topwear images are:-</h1>
+<img src="{{ url_for('celio', path=topwear_image.id1) }}" width="500" height="300">
+<img src="{{ url_for('celio', path=topwear_image.id2) }}" width="500" height="300">
+<img src="{{ url_for('celio', path=topwear_image.id3) }}" width="500" height="300">
+<img src="{{ url_for('celio', path=topwear_image.id4) }}" width="500" height="300">
+<img src="{{ url_for('celio', path=topwear_image.id5) }}" width="500" height="300">
+
+
+<h1>The Recommended Bottomwear images are:-</h1>
+<img src="{{ url_for('celio', path=bottomwear_image.id1) }}" width="500" height="300">
+<img src="{{ url_for('celio', path=bottomwear_image.id2) }}" width="500" height="300">
+<img src="{{ url_for('celio', path=bottomwear_image.id3) }}" width="500" height="300">
+<img src="{{ url_for('celio', path=bottomwear_image.id4) }}" width="500" height="300">
+<img src="{{ url_for('celio', path=bottomwear_image.id5) }}" width="500" height="300">
+
+
+</body>
+</html>

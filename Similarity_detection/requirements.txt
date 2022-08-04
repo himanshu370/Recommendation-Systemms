@@ -1,0 +1,4 @@
+fastapi[all]
+opencv-python
+opencv-python-headless
+pickle-mixin
